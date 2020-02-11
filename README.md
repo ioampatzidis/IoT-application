@@ -1,17 +1,17 @@
 # IoT-application
 «Design and implementation of an IoT platform for analysis of weather conditions»
 
-Use the node-red node«openweathermap»
+Use of the node-red node«openweathermap»
 
-Visualize  in  real  time  using  node-red  the  graphs  for  (temperature,  time),  (humidity,  time), 
-(atmospheric pressure, time) for the location of your interest
+Visualization  in  real  time  using  node-red  the  graphs  for  (temperature,  time),  (humidity,  time), 
+(atmospheric pressure, time) for the location of Kastoria,Greece
 
-Display every 2 hours a small description for the current weather conditions
+Display every 2 hours a small description for the current weather conditions in Kastoria
 
-From the openweathermap.org receive in node-red the weather widget and display it.
+From the openweathermap.org we receive in node-red the weather widget for real time weather conditions and display them in Dashboard.
 
-From the interface https://openweathermap.org/forecast5 receive the data of the last 5 days grouped per 3 hours and store
-them in a database(SQLite).
+From the interface https://openweathermap.org/forecast5 receive the data of the last 5 days grouped per 3 hours and store them in a database(SQLite).
+
 These data in JSON format are for the  temperature, the  sea level,the  humidity and  the  atmospheric  pressure. 
 For storing them,we use in node-red the«litedb» node.
 
